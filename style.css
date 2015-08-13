@@ -1,0 +1,131 @@
+ /*
+Theme Name: MIC Vitória
+Theme URI: http://www.micvitoria.com.br
+Description: Theme for mic site asdfasd <a href="#" title"site oficial">Site do Tema</a> adosfjasdfoasdf.
+Author: Mic Vitória
+Version: 1.0
+License: Privado
+*/
+
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	transition:all ease-out 0.5s;
+
+}
+body{
+	color: red;
+	font-family: Verdana, sans-serif;
+	transition:all ease-out 0.5s;
+}
+.container{
+	float: left;
+	width: 100%;
+}
+.row-fluid{
+	width: 1080px;
+	display: block;
+	min-height: 200px;
+	margin: 0 auto;
+}
+
+/* Barra superior */
+#header{
+	background: #FFF;
+	height: 80px;
+	position: fixed;
+}
+
+.brand{ /* Logomarca */
+	float: left;
+	background: #fff;
+	height: 60px;
+	width: 240px;
+	margin: 10px 0;
+}
+.top-nav{ /* Menu de navegação */
+	float: right;
+	margin-top: 15px;
+}
+.nav-menu{float: left;}
+.nav-menu li{
+	float: left;
+}
+.nav-menu li a{ /* Itens do menu de navegação */
+	float: left;
+	color: #696969;
+	font-size: 22px;
+	margin-left: 5px;
+	padding: 10px 15px;
+	transition:all ease-out 0.5s;
+}
+.nav-menu li a:hover{
+	color: #DCDCDC;
+}
+
+.top-nav-social{ /* Redes sociais */
+	float: right;
+}
+
+.top-nav-social a{ /* Itens redes sociais */
+	float: right;
+	display: block;
+	margin: 12px 0 0 10px;
+}
+/* Fim barra superior */
+
+#noticias{
+	background: #F5F5F5;
+	height: 560px;
+	color: #000;
+}
+
+#destaques{
+	background: #D3D3D3;
+	height: 300px;
+}
+
+#blogs{
+	background: #F5F5F5;
+	height: 400px;
+}
+
+/* Barra inferior */
+#footerBar{ /* Propriedades da barra */
+	background: #696969;
+	height: 68px;
+}
+
+#p-footerBar{ /* Parágrafo da barra */
+	font-family: Verdana, sans-serif;
+	color: #fff;
+	float: left;
+	margin-top: 25px;
+}
+
+#social-footerBar{
+	float: left;
+	margin-top: 25px;
+	margin-left: 5px;
+}
+/* Fim da barra inferior */
+
+#footer{
+	background: #FFF;
+	height: 200px;
+}
+@media screen and (max-width: 768px) {
+	.row-fluid{
+		width: 100%;
+	}
+
+	#header{
+		height: 180px;
+	}
+}
+
+
+
